@@ -4,7 +4,7 @@ pipeline {
     environment {
         // It's good practice to keep sensitive or specific data like Docker images, remote hosts, and credentials out of the script for security and flexibility.
         DOCKER_IMAGE    = 'natayos/fastapi-webhook:latest' // Ensure this Docker image name is correct and accessible.
-        REMOTE_HOST     = 'natayos@35.240.135.34' // Replace with your actual username and remote IP.
+        REMOTE_HOST     = 'natt_bom@35.240.135.34' // Replace with your actual username and remote IP.
         SSH_CREDENTIALS = 'ssh_prod_instance' // Use the ID of the Jenkins stored SSH credentials.
     }
 
